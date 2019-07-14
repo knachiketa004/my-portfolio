@@ -1,16 +1,13 @@
 version: 0.2
 
-run-as: Linux-user-name
-
 phases:
-  build:
-    commands:
-      - echo nothing to do yet
-
   install:
-    run-as: Linux-user-name
     runtime-versions:
       nodejs: 10
+
+  build:
+    commands:
+      - echo Nothing to do yet
 
 artifacts:
   files:

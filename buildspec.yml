@@ -1,12 +1,19 @@
-version: 0.1
+version: 0.2
+
+run-as: Linux-user-name
 
 phases:
+  install:
+    run-as: Linux-user-name
+    runtime-versions:
+      nodejs:10
   build:
     commands:
-      - echo Nothing to do yet
+      - echo nothing to do yet
+
 artifacts:
   files:
-    - index.html
-    - favicon.ico
-    - styles/main.css
     - images/*
+    - styles/main.class
+    - favicon.icon
+    - index.html

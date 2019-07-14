@@ -12,6 +12,7 @@ phases:
 artifacts:
   files:
     - images/*
-    - styles/main.class
-    - favicon.icon
+    - styles/main.css
+    - favicon.ico
     - index.html
+    - upload-portfolio-lambda.py
